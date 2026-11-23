@@ -33,11 +33,8 @@ Execute Django admin using localhost and create details for 10 entries
 ## PROGRAM
 Models.py
 
-
 from django.db import models
 from django.contrib import admin
-
-
 class Car(models.Model):
 
     car_id = models.CharField(
@@ -62,10 +59,7 @@ class Car(models.Model):
 
     def _str_(self):
         return self.brand + " " + self.model
-
-
 class CarAdmin(admin.ModelAdmin):
-
     list_display = (
         'car_id',
         'brand',
