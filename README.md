@@ -31,6 +31,7 @@ Apply the migration files of the created app to the database
 Execute Django admin using localhost and create details for 10 entries
 
 ## PROGRAM
+```
 admin.py
 
 from django.contrib import admin
@@ -83,6 +84,7 @@ class CarAdmin(admin.ModelAdmin):
         'quantity',
         'color'
     )
+```
 ## OUTPUT
 <img width="1920" height="995" alt="Screenshot (458)" src="https://github.com/user-attachments/assets/0c7d94a2-1b82-4351-b3fe-34a39bfbf43d" />
 
