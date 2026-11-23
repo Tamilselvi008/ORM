@@ -34,6 +34,7 @@ Execute Django admin using localhost and create details for 10 entries
 Models.py
 
 from django.db import models
+
 from django.contrib import admin
 class Car(models.Model):
 
